@@ -1,0 +1,31 @@
+{
+  "name": "nomadcoders_instaclone_backend",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node server.js",
+    "migrate": "npx prisma migrate dev",
+    "studio": "npx prisma studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.7.5",
+    "@graphql-tools/load-files": "^7.0.0",
+    "@graphql-tools/merge": "^9.0.0",
+    "@graphql-tools/schema": "^10.0.0",
+    "@prisma/client": "^4.16.2",
+    "dotenv": "^16.3.1",
+    "graphql": "^16.7.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.22.6",
+    "@babel/node": "^7.22.6",
+    "@babel/preset-env": "^7.22.6",
+    "nodemon": "^2.0.22",
+    "prisma": "^4.16.2"
+  }
+}
